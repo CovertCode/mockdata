@@ -4,7 +4,7 @@
      "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
     "arbId": { "int": { "min": 42312123, "max": 92312123 } },
     "amount": { "int": { "min": 10, "max": 500 } },
-    "status: "active",
+    "status: {string: "active"},
     "paymentUnit":"months",
     "Day_of_Month": { "int": { "min": 1, "max": 30 } }
   }
